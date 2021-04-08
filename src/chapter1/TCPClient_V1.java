@@ -12,7 +12,8 @@ public class TCPClient_V1 {
 		
 		try {
 			//루프백 주소(내 컴퓨터를 지칭함)
-			String serverIp="127.0.0.1";
+//			String serverIp="127.0.0.1";
+			String serverIp="192.168.2.31";
 			
 			System.out.println("서버에 연결중입니다. 서버 IP="+serverIp);
 			

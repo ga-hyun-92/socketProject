@@ -1,7 +1,7 @@
 package chapter1;
 
 import java.io.IOException;
-import java.net.ServerSocket;
+import java.net.ServerSocket; 
 import java.net.Socket;
 
 public class TCPServer_V5 {
@@ -23,7 +23,7 @@ public class TCPServer_V5 {
 			
 			
 		} catch (IOException e) {
-			// TODO: handle exception
+			e.printStackTrace();
 		}
 		
 
